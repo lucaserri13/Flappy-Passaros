@@ -1,0 +1,95 @@
+Link do jogo: https://jackmalta.itch.io/jogo-dos-passros
+
+(Análise Flappy Pássaros)
+
+Telas, elementos e fluxo do jogo:
+
+
+Telas:
+- Menu Principal
+- Loja
+- Gameplay
+
+Elementos:
+> Menu Principal
+  - Título
+  - Botão de Jogar
+  - Botão de Loja
+  - Botão de Efeitos
+  - Background
+
+> Loja
+  - Botão de Voltar
+  - Ícone de quandos peixes o jogador tem
+  - Caixas com skins de pássaros dentro e seus preços em peixes
+  - Background
+
+> Gameplay
+  - Player (pássaro do jogador
+  - Inimigos (pássaros obstáculo)
+  - Árvores (obstáculo do chão)
+  - Peixes colecionáveis
+  - Pontos
+  - Ícone de quandos peixes o jogador tem
+  - Nível de dificuldade (número)
+  - Background
+
+Fluxo:
+- Menu Principal
+- Loja
+- Menu Principal (Voltando da Loja)
+- Gameplay
+- Menu Principal (Morrendo na Gameplay)
+
+-----------------------------------------------------
+
+Objetivo, obstaculos e regras:
+
+
+Objetivo:
+- Ir o mais longe possível enquanto desvia de obstáculos e pega
+peixes ao longo do caminho
+
+Obstaculos:
+- Árvores (obstáculos do chão)
+- Chão (ao cair nele)
+- Céu (ao subir demais e bater no topo da tela)
+- Pássaros Inimigos (obstáculos do céu)
+
+Regras:
+- Acertar qualquer um dos obstáculos faz o jogo terminar
+- O pássaro do jogador constantemente é afetado por gravidade, para 
+parar de cair o jogador aperta espaço para voar um pouco mais alto
+- O jogador ganha pontos por distância percorrida
+- Pegar os colecionáveis no jogo dá pontos em forma de  peixes que o jogador tem
+- A dificuldade aumenta com o tempo, fazendo obstáculos se mover mais rápido
+
+///////////////////////////////////////////////////////////////
+
+(Minha Review)
+
+Eu achei o jogo muito desbalanceado e difícil de ser aproveitado. 
+
+O jogo poderia ter uma experiência bem prazerosa mas o voo do pássaro é muito alto,
+o que pode levar a situações onde é impossível não acertar um obstáculo,
+principalmente quando se leva em consideração que ao acertar o topo da tela
+por voar demais faz o jogador morrer, o que é muito injusto. 
+
+A gravidade também terá que ser um pouco maior 
+para facilitar pro jogadordesviar dos pássaros.
+
+Pelo menos estou com boas expectativas para esse módulo,
+vi que nele será utilizado várias coisas que quero aprender
+e sei que vou poder adicionar várias coisas bem legais
+quando for fazer minha versão pro jogo,
+mas obviamente focar em certas coisas que podem ser melhoradas como:
+
+- Tela de game over para poder ter tempo de ver a pontuação.
+
+- Salvar a maior pontuação do jogador para que ele saiba quando bateu seu recorde.
+
+- Mudar tamanho de certas hitboxes.
+
+- Ajustar o voo do player.
+
+- Talvez, só talvez, fazer os pássaros inimigos possuir movimentação vertical.

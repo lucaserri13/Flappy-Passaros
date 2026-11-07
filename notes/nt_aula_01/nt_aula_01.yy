@@ -1,0 +1,11 @@
+{
+  "$GMNotes":"v1",
+  "%Name":"nt_aula_01",
+  "name":"nt_aula_01",
+  "parent":{
+    "name":"Aulas",
+    "path":"folders/Notes/Aulas.yy",
+  },
+  "resourceType":"GMNotes",
+  "resourceVersion":"2.0",
+}

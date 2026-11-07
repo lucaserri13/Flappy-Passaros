@@ -1,0 +1,103 @@
+                              (GDD - FLAPPY PASSAROS)
+
+- GDD feito pelo Crikkin, nas aulas do módulo de GDD.
+- O GDD feito por mim está na área de trabalho, na pasta de GDD, 
+é ele que deve ser utilizado, apenas coloquei o GDD da aula aqui por precausão,
+mas ainda assim devo apenas utilizar e atualizar o GDD que eu criei (Do documento Word).
+- Elementos visuais do meu GDD estão na parte de "Sprites".
+
+Link do jogo: https://jackmalta.itch.io/jogo-dos-passros
+
+//////////////////////////////////////////////////////////////////////////////////////////
+
+* Conceito Geral (High Concept):
+- Você controla um pássaro fazendo ele voar um pouco mais alto para manter ele
+na tela enquanto desvia de árvores e outros pássaros voando contra a nossa
+direção.
+
+//////////////////////////////////////////////////////////////////////////////////////////
+
+* Público Alvo:
+- Jogadores casual;
+- Jogadores de dispositivos móveis (celulares e tablets) & jogadores de jogos
+de navegador;
+
+//////////////////////////////////////////////////////////////////////////////////////////
+
+* Detalhes de Gameplay:
+- Você controla um pássaro tocando na tela e a cada segundo que você mantém
+ele na tela uma pontuação vai aumentando, a cada vez que a gente chegar a
+um múltiplo de 100, a gente ganha uma marcação de milestone. O jogador
+aperta o botão, e voa mais alto, mas não influencia na direção horizontal.
+
+- O jogador precisa desviar de árvores, que vai aparecer vindo da direita para a
+esquerda, na parte inferior da tela, variando em altura ocupando no máximo a
+metade da tela. Além das árvores, podem aparecer outros pássaros voando na
+direção oposta que aparecer também da direita, e podem ocupar um espaço da
+metade para cima.
+
+- O jogador pode coletar peixes que ficam em lugares aleatórios da tela, vindo
+da direita para a esquerda, e esses coletáveis podem ser gastos numa lojinha
+no menu principal do jogo, para ter variedade de pássaros jogáveis.
+
+//////////////////////////////////////////////////////////////////////////////////////////
+
+* PUV - Proposta Única de Venda:
+- O jogo é um passa tempo com visuais relaxantes que passa harmonia e
+tranquilidade para o jogador, fazendo ele jogar nos tempos livres casualmente.
+
+//////////////////////////////////////////////////////////////////////////////////////////
+
+* Lista de Mecânicas:
+
+- Movimento Vertical (Essencial)
+O jogador é afetado pela gravidade 
+e precisa apertar um botão para subir um pouco no eixo y.
+// Controle do jogador;
+
+- Sistema de Morte e Replay (Essencial)
+O jogador ao sair da tela, ou colidir, morre.
+Ao morrer ele tem opção de voltar ao menu ou reiniciar o jogo.
+// Loop de Gameplay;
+
+- Obstáculo do Chão (Essencial)
+Obstáculo que cobre da metade para baixo da tela,
+variando de tamanho/altura que se movimenta 
+da direita para a esquerda da tela.
+// Desafio para o jogador;
+
+- Obstáculo do ar (Essencial)
+Obstáculo que aparece da metade para cima da tela
+cobrindo um pequeno espaço, que se movimenta
+da direita para a esquerda da tela.
+// Desafio para o jogador;
+
+- Nível de dificuldade (Desejável)
+A medida que o jogador avança, o nível de dificuldade aumenta,
+fazendo com que os obstáculos fiquem mais rápidos.
+// Progressão de Jogabilidade;
+
+- Pontuação (Desejável)
+A medida que o jogador avança, a pontuação
+de distância percorrida aumenta.
+// Recompensa pro Jogador;
+
+- Coletáveis (Interessante)
+Um item que aparece em uma posição do eixo y aleatória,
+vindo da direita para a esquerda e pode ser pego pelo jogador.
+// Recompensa pro Jogador;
+
+- Loja de Skins (Interessante)
+Jogador gasta os coletáveis obtidos em partida,
+para adquirir novos pássaros jogáveis.
+// Customização;
+
+//////////////////////////////////////////////////////////////////////////////////////////
+
+* Referências:
+-Jogo:
+	>Flappy Bird
+	>Damn! Asteroids
+	
+//////////////////////////////////////////////////////////////////////////////////////////
+                                         (FIM)

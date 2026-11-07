@@ -1,0 +1,30 @@
+--> 000 - Introdução (baixem os assets):
+
+Professor não disponibilizou o slide de como fazer o jogo
+porque ele quer que nós façamos isso 
+(não o slide, mas a parte de fazer a estrutura do jogo).
+
+A ESTRUTURA DO JOGO ESTARÁ NA ANOTAÇÃO "nt_analise".
+
+O link para o jogo está na descrição da aula. 
+Link do jogo: https://jackmalta.itch.io/jogo-dos-passros
+
+Os assets para fazer o jogo estão na parte de "Materiais"
+da aula sob nome "Assets_passaros_zip".
+
+Ali também tem o source do projeto (flappy passaros2.yyz),
+nele você pode olhar o projeto original para conferir o código ou qualquer outra coisa.
+
+Na página do jogo comente o que achou do jogo, qual é a sua perspectiva sobre ele,
+qual é a sua expectativa para o módulo e como você pode melhorar o jogo.
+
+Anotar o que está acontecendo nas aulas ajuda a internalizar o conhecimento.
+
+O professor aconselha que durante o desenvolvimento de qualquer jogo
+compartilhar com o discord para receber feedback.
+
+Lembre-se de perguntar suas dúvidas no comentário das aulas.
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+
+--> 001 - Iniciando o projeto:
