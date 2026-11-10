@@ -37,7 +37,7 @@
     {"id":{"name":"nt_aula_01","path":"notes/nt_aula_01/nt_aula_01.yy",},},
     {"id":{"name":"nt_creditos","path":"notes/nt_creditos/nt_creditos.yy",},},
     {"id":{"name":"nt_GDD","path":"notes/nt_GDD/nt_GDD.yy",},},
-    {"id":{"name":"rm_01","path":"rooms/rm_01/rm_01.yy",},},
+    {"id":{"name":"rm_jogo","path":"rooms/rm_jogo/rm_jogo.yy",},},
     {"id":{"name":"snd_levelup","path":"sounds/snd_levelup/snd_levelup.yy",},},
     {"id":{"name":"snd_music01","path":"sounds/snd_music01/snd_music01.yy",},},
     {"id":{"name":"snd_music02","path":"sounds/snd_music02/snd_music02.yy",},},
@@ -65,7 +65,7 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"rm_01","path":"rooms/rm_01/rm_01.yy",},},
+    {"roomId":{"name":"rm_jogo","path":"rooms/rm_jogo/rm_jogo.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
