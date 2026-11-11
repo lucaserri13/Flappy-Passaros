@@ -1,4 +1,6 @@
 {
-  "FolderOrderSettings":[],
+  "FolderOrderSettings":[
+    {"name":"Passaros","order":1,"path":"folders/Sprites/Gameplay/Passaros.yy",},
+  ],
   "ResourceOrderSettings":[],
 }
