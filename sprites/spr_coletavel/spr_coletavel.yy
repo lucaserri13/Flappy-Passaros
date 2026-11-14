@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Gameplay",
-    "path":"folders/Sprites/Gameplay.yy",
+    "name":"Passaros",
+    "path":"folders/Sprites/Gameplay/Passaros.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

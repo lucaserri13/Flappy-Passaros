@@ -2,5 +2,10 @@
   "FolderOrderSettings":[
     {"name":"Passaros","order":1,"path":"folders/Sprites/Gameplay/Passaros.yy",},
   ],
-  "ResourceOrderSettings":[],
+  "ResourceOrderSettings":[
+    {"name":"nt_aula_02","order":1,"path":"notes/nt_aula_02/nt_aula_02.yy",},
+    {"name":"spr_carcara","order":1,"path":"sprites/spr_carcara/spr_carcara.yy",},
+    {"name":"spr_coletavel","order":2,"path":"sprites/spr_coletavel/spr_coletavel.yy",},
+    {"name":"spr_coruja","order":3,"path":"sprites/spr_coruja/spr_coruja.yy",},
+  ],
 }

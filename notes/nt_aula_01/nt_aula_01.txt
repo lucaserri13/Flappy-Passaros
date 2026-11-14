@@ -28,3 +28,157 @@ Lembre-se de perguntar suas dúvidas no comentário das aulas.
 ///////////////////////////////////////////////////////////////////////////////////////////////
 
 --> 001 - Iniciando o projeto:
+
+Para esse projeto o professor não estará usando o GameMaker LTS,
+ele irá usar o GameMaker normal
+
+Entretanto a versão LTS que estou usando já é a versão mais atualizada do GameMaker
+então está tudo bem
+
+É possível criar jogos no gamemaker normal, 
+entretanto se o gamemaker receber uma atualização
+NUNCA ATUALIZE A FERRAMENTA DURANTE UM PROJETO SEU
+
+O mesmo se aplica para qualquer ferramenta que você estiver usando
+
+Não faço ideia do que ele quer dizer por elencar, 
+mas suponho que seja falar os elementos das telas, algo que já fiz na aula anterior
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+
+--> 002 -  Resolução da atividade:
+
+Ah tá, por "elencar" ele quer dizer importar todos os sprites do background 
+e organiza-los. Já fiz isso, todos os sprites nomeados e organizados
+
+Entretanto agora resta saber como vai ser o tamanho da room,
+que suponho que será do mesmo tamanho do sprite do céu
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+
+--> 003 -  Resolução do jogo parte 1:
+
+A largura e altura estão em perspectiva paisagem (tela deitada), 
+para perspectiva retrato (tela em pé) você inverte os valores de width e height
+
+Em geral você pensa na proporção da tela que o jogo será feito, 
+há um link nessa aula contendo o site das resoluções para monitores 16:9
+
+As proporções em verde são resoluções com proporções que não retornam valores quebrados 
+após divisão de uma por outra, valores quebrados afetam sprite
+
+Não é obrigatório mas muito recomendado que você fique nas resoluções verdes
+para evitar quebrar e deformar os pixels
+
+Para jogo pixel art, escalar a resolução de uma baixa para alta 
+(considerando que ambos sejam verdes) tende a não ter muitos problemas
+
+Entretanto para jogos com artes vetoriais mais sólida podem esticar e expor pixels, 
+a solução geralmente é fazer uma sprite pequena, média e grande
+
+​Link do site das resoluções 
+https://pacoup.com/2011/06/12/list-of-true-169-resolutions/
+
+Site alternativo se o primeiro não estiver funcionando
+https://gist.github.com/Brottweiler/8898816
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+
+--> 004 -  Resolução do jogo parte 2:
+
+Viewport não é a janela do jogo, 
+mas pensar que viewport é a tela serve como perspectiva de como ela funciona na pratica
+
+Quem define a altura e largura da janela do jogo é o viewport, e não a camera
+
+A camera é o que seu jogo está vendo, nós não vemos o level inteiro, 
+nós vemos um pedaço, e esse pedaço é a camera
+
+Sempre marque a opção "clear viewport background"
+porque ele garante que não vai ter sujeira, que são umas marcas que ficam
+
+(IMPORTANTE) - O VIEWPORT E A CAMERA PRECISAM TER A MESMA PROPORÇÃO. 
+Não precisam ter o mesmo TAMANHO mas precisam ter a mesma PROPORÇÃO
+
+Por exemplo fazer uma camera retangular mas fazer o viewport um quadrado
+
+Basicamente respeite proporções
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+
+--> 005 - Montando as layers do background:
+
+É possível arrastar sprites direto do asset browser até os botões escritos
+"No Sprite" no inspetor para mudar a sprite do que estiver no inspetor
+
+O Mesmo se aplica caso o inspector já esteja mostrando algo com sprite, 
+basta arrastar a sprite que quiser em cima do botão com texto da sprite atual
+
+Você pode trancar o inspetor clicando no símbolo de cadeado 
+(que fica do lado da barra de pesquisa do inspetor)
+
+Trancar o inspetor faz com que o inspetor mantenha mostrando apenas informações
+do asset no qual foi trancado,
+
+isso faz com que o inspetor não mude sempre que você clicar em um asset diferente,
+o que pode ser MUITO útil
+
+Por favor lembre-se de destrancar o inspetor
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+
+--> 006 - Movendo o background
+
+Lembre-se que você pode apertar no botão (Play Animation)
+no canto superior direito dentro de uma sala para rodar todas as animações daquela sala
+
+"Horizontal Tile" e "Vertical Tile" no inspetor do background
+permitem a repetição da sprite nessas direçoes, sempre repitindo ao fim da sprite
+
+Velocidade horizontal para frente é positivo,
+enquanto velocidade horizontal para trás é negativo
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+
+--> 007 - Resolução da atividade
+
+Se o nome da sprite importada tiver "strip_" ela será importada na quantidade de imagens
+equivalente ao número que vier após o "strip_"
+
+Atividade a ser feita: criar a movimentação vertical do pássaro
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+
+--> 008 - Resolução da atividade
+
+Gravity é gravidade de fato, uma força que vai aumentando, ela tem incremento,
+
+logo se a gravidade for "1" na primeira vez é 1, depois vai ser 2, depois 3, 4, 5...
+Então ele vai ganhando mais velocidade para baixo
+
+Entretanto por causa desse comportamento a gravidade pode ficar muito grande
+muito rapidamente, por isso é melhor usar valores bem pequenos, tipo 0.01
+
+"0.1 também funciona mas continua bem pesado"
+
+O próximo desafio é fazer a animação de bater as asas
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+
+--> 009 - Resolução do desafio
+
+O Image_Index começa a contar a partir do "0", logo a primeira imagem de uma sprite é "0",
+a segunda é "1" e a terceira é "2"
+
+(Aliás, "image_index" pode conter números quebrados, por isso cuidado ao fazer
+condições muito específicas, tipo "if image_index = 1")
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+
+--> 010 - Resolução do desafio
+
+O professor fez com que voar não podesse ser espammado, já cuidei disso
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+
+FIM DAS AULAS, AS PRÓXIMAS AULAS ESTARÃO NO DOCUMENTO "nt_aula_02

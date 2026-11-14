@@ -36,6 +36,7 @@
   "resources":[
     {"id":{"name":"nt_analise","path":"notes/nt_analise/nt_analise.yy",},},
     {"id":{"name":"nt_aula_01","path":"notes/nt_aula_01/nt_aula_01.yy",},},
+    {"id":{"name":"nt_aula_02","path":"notes/nt_aula_02/nt_aula_02.yy",},},
     {"id":{"name":"nt_creditos","path":"notes/nt_creditos/nt_creditos.yy",},},
     {"id":{"name":"nt_GDD","path":"notes/nt_GDD/nt_GDD.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
