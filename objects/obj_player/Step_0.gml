@@ -1,3 +1,11 @@
+//Nada roda caso eu tenha perdido
+if (global.perdeu)
+{
+	// Girando
+	image_angle += 15;
+	exit;
+}
+
 #region Voando
 
 	// Você só começa a voar quando a imagem mostrar você batendo as asas

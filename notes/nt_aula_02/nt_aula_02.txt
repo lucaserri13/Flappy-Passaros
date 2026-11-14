@@ -1,1 +1,43 @@
 --> 011 - Resolução da atividade
+
+Arvore agora move para a esquerda
+
+//////////////////////////////////////////////////////////////////////////////////////////
+
+--> 012 - Ajustando as máscaras de colisão
+
+Próxima aula iremos fazer o efeito de parar os objetos e inimigos, 
+dando efeito de perder assim como a animação do player
+
+//////////////////////////////////////////////////////////////////////////////////////////
+
+--> 013 - Efeito de perder
+
+Variáveis globais são sempre bons no script porque eles rodam antes de qualquer coisa
+
+O comando "with" roda o código dentro da outra pessoa Exemplo: with(obj_arvore)
+{ hspeed = 0; }
+
+O problema disso é que se a árvore não existe o código dá erro
+
+Mas eu quero fazer com que tudo pare, e para isso posso usar a palavra "all",
+ele vai rodar em todo mundo que existe no jogo
+with(all) { hspeed = 0; }
+
+ISSO TAMBÉM INCLUI O PLAYER
+por isso para evitar problemas, mude o "hspeed" do player logo em seguida
+
+//////////////////////////////////////////////////////////////////////////////////////////
+
+--> 014 - Resolução da atividade
+
+mudar a velocidade de uma layer é bem simples, 
+basta fazer "layer_hspeed()" ou "layer_vspeed()"
+
+//////////////////////////////////////////////////////////////////////////////////////////
+
+--> 015 - Resolução da atividade
+
+O próximo obstáculo a ser feito é o pássaro
+
+O pássaro inimigo, aliás
