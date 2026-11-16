@@ -41,3 +41,63 @@ basta fazer "layer_hspeed()" ou "layer_vspeed()"
 O próximo obstáculo a ser feito é o pássaro
 
 O pássaro inimigo, aliás
+
+//////////////////////////////////////////////////////////////////////////////////////////
+
+--> 016 - Resolução da atividade
+
+Uma função é um agregado de códigos rodando,
+basicamente você pode criar uma função que é a conjunção de vários códigos em um só
+
+Funções são laranjas
+
+O ideal é criar funções em scripts porque funções são globais,
+logo sendo um dos principais propósitos de um script
+
+Caso o jogo seja grande é recomendado criar scripts para diferentes propósitos
+
+Por exemplo um script para variáveis globais, um para funções de recursos, 
+ou funções de jogo, funções de inventário, funções de menu, etc...
+
+Scripts após criados já iniciam o código com uma estrutura de função justamente para isso
+
+A próxima aula será puramente focada em funções, servindo como uma introdução
+
+//////////////////////////////////////////////////////////////////////////////////////////
+
+--> 017 - Introdução a funções
+
+Para criar função você primeiro escreve "function",
+depois você coloca o nome da função, quando terminar de colocar nome
+você abre e fecha parênteses
+
+Exemplo: function perde_jogo()
+
+Depois você vai abrir e fechar chaves, para poder escrever o código dentro
+
+Exemplo: function perde_jogo() 
+		 { 
+			//código da função 
+		 }
+
+Tudo escrito dentro das chaves será rodado sempre que a função for mencionada
+
+Também é possível fazer condições "exit" nas funções
+
+//////////////////////////////////////////////////////////////////////////////////////////
+
+--> 018 - Perdendo ao sair por cima ou por baixo
+
+Na próxima aula será feito geração procedural dos obstáculos
+
+//////////////////////////////////////////////////////////////////////////////////////////
+
+--> 019 - Iniciando o sistema de geração procedural
+
+O desafio é criar o sistema de criação das árvores através de alarmes
+
+//////////////////////////////////////////////////////////////////////////////////////////
+
+--> 020 - Resolução da atividade	
+
+O próximo desafio é fazer com que a árvore possa mudar seu valor Y cada vez que é criada

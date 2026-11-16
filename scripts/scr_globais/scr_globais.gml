@@ -16,7 +16,10 @@ function perdeu(){
 	hspeed = -3;
 	
 	// Caindo
-	gravity = 0.5
+	gravity = 0.5;
+	
+	// Fazendo o alarme de reiniciar
+	alarm[0] = (game_get_speed(gamespeed_fps))
 	
 	// Tirando a velocidade do background
 	layer_hspeed("bg_arvores", 0);
@@ -26,6 +29,9 @@ function perdeu(){
 
 // Iniciando variáveis globais
 #region variáveis globais
+
+	//randomizando o jogo
+	randomise();
 
 	//variável para saber se o jogador perdeu
 	global.perdeu = false;

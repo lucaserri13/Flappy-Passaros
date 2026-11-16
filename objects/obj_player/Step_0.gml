@@ -1,8 +1,11 @@
 //Nada roda caso eu tenha perdido
 if (global.perdeu)
 {
-	// Girando
+	// Girando caso ele não esteja em cima da tela
+	if (y > 0)
 	image_angle += 15;
+		else y-= 2;
+		
 	exit;
 }
 
@@ -23,7 +26,7 @@ if (global.perdeu)
 //Tudo adiante não será lido caso o jogo não tenha iniciado (não tem gravidade)
 if (gravity = 0) exit;
 
-#region Animação/Angulo
+#region Animação de Voo/Angulo
 
 	//Velocidade da animação
 	var _angspeed = 6;
@@ -46,21 +49,5 @@ if (gravity = 0) exit;
 			image_angle-= _angspeed;
 
 		}
-
-#endregion
-
-#region Teto
-
-	// Variável temporária que define a distância do jogador com o teto
-	var _dist = 30;
-	
-	// Prevenindo o jogador de sair da sala por cima
-	if (y <= _dist)
-	{
-		y = _dist;
-		
-		// Resetando o ângulo
-		image_angle = 0;
-	}
 
 #endregion

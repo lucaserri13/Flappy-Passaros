@@ -95,21 +95,3 @@ mas obviamente focar em certas coisas que podem ser melhoradas como:
 - Talvez, só talvez, fazer os pássaros inimigos possuir movimentação vertical.
 
 
-image_index: 0.00
-image_index: 0.17
-image_index: 0.33
-image_index: 0.50
-image_index: 0.67
-image_index: 0.83
-image_index: 1.00
-image_index: 1.17
-image_index: 1.33
-image_index: 1.50
-image_index: 1.67
-image_index: 1.83
-image_index: 2.00
-image_index: 2.17
-image_index: 2.33
-image_index: 2.50
-image_index: 2.67
-image_index: 2.83
