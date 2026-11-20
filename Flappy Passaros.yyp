@@ -25,7 +25,9 @@
     {"$GMFolder":"","%Name":"GDD","folderPath":"folders/Sprites/GDD.yy","name":"GDD","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Hud","folderPath":"folders/Sprites/Hud.yy","name":"Hud","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
-  "ForcedPrefabProjectReferences":[],
+  "ForcedPrefabProjectReferences":[
+    {"link":"io.gamemaker.sdfshaders-1.0.0","name":"io.gamemaker.sdfshaders-1.0.0","path":"io.gamemaker.sdfshaders-1.0.0.yyp",},
+  ],
   "IncludedFiles":[],
   "isEcma":false,
   "LibraryEmitters":[],
@@ -34,6 +36,7 @@
   },
   "name":"Flappy Passaros",
   "resources":[
+    {"id":{"name":"fnt_font","path":"fonts/fnt_font/fnt_font.yy",},},
     {"id":{"name":"nt_analise","path":"notes/nt_analise/nt_analise.yy",},},
     {"id":{"name":"nt_aula_01","path":"notes/nt_aula_01/nt_aula_01.yy",},},
     {"id":{"name":"nt_aula_02","path":"notes/nt_aula_02/nt_aula_02.yy",},},

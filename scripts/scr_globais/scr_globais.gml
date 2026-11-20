@@ -32,8 +32,14 @@ function perdeu(){
 
 	//randomizando o jogo
 	randomise();
+	
+	//variável para iniciar o jogo
+	global.iniciou = false;
 
 	//variável para saber se o jogador perdeu
 	global.perdeu = false;
-
+	
+	//variável para guardar os pontos do player
+	global.pontos = 0;
+	
 #endregion

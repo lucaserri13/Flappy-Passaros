@@ -8,3 +8,6 @@ if (passarocolide)
 
 // Indo para a esquerda
 hspeed = -4;
+
+// Destruindo após sair da tela
+if (x < -60) instance_destroy();

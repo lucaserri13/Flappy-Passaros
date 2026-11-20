@@ -4,9 +4,11 @@ if (global.perdeu) exit;
 #region Iniciando obstáculos
 
 // Iniciando a geração de obstáculos caso o player inicie o jogo
-if (gravity = 0)
+if not (global.iniciou)
 {
 	obj_level.alarm[0] = game_get_speed(gamespeed_fps)/2;
+	obj_level.alarm[1] = game_get_speed(gamespeed_fps)/2;
+	global.iniciou = true;
 }
 
 #endregion

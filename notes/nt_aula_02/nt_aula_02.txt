@@ -101,3 +101,52 @@ O desafio é criar o sistema de criação das árvores através de alarmes
 --> 020 - Resolução da atividade	
 
 O próximo desafio é fazer com que a árvore possa mudar seu valor Y cada vez que é criada
+
+//////////////////////////////////////////////////////////////////////////////////////////
+
+--> 021 - Resolução do desafio
+
+Próximo desafio é fazer a geração procedural dos passaros
+
+//////////////////////////////////////////////////////////////////////////////////////////
+
+--> 022 - Resolução do desafio
+
+Próximo desafio é fazer um sistema de pontos
+
+//////////////////////////////////////////////////////////////////////////////////////////
+
+--> 023 - Iniciando o sistema de pontos
+
+A posição que o "Draw GUI" utiliza não é a posição da câmera, nem da room, 
+é a posição do VIEWPORT, a posição do VIEWPORT pode ser diferente da câmera
+
+Logo o GUI é desenhado na TELA do jogo, não é desenhado dentro do jogo
+
+A atividade é fazer o player não ganhar ponto após perder
+
+//////////////////////////////////////////////////////////////////////////////////////////
+
+--> 024 - Resolução da atividade
+
+Próxima coisa a fazer é arredondar os pontos e criar fonte
+
+//////////////////////////////////////////////////////////////////////////////////////////
+
+--> 025 - Criando a fonte e arredondando os pontos
+
+Enable SDF ajuda a renderizar as fontes de jeito que fica um pouquinho melhor.
+Essa configuração pode ser ativada dentro da fonte
+
+Fontes podem não ter "ç" ou acentos,
+para resolver isso basta clicar em "Add" (Add new range)
+
+Nele você poderá ver tudo o que a fonte tem, 
+separando em filtros tipo só digitos, só letras,
+e até mostrar tudo através do ASCII, incluindo símbolos
+
+Para incluir caracteres não presentes na fonte você clica em "Add Range"
+
+Qualquer função que seja "draw_set" é global,
+logo para resetar o "draw_set_font" você faz "draw_set_font(-1)"
+já que "-1" reseta essa função
