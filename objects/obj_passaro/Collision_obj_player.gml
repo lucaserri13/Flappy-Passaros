@@ -8,8 +8,5 @@ if (global.perdeu) exit;
 	// Subindo
 	vspeed = -6;
 	
-	// Indo para trás
-	hspeed = 3;
-	
 	// Caindo
 	gravity = 0.5

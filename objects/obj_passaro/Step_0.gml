@@ -3,7 +3,12 @@ if (passarocolide)
 {
 	// Girando
 	image_angle -= 15;
+	
+	// Pausando animação
 	image_speed = 0;
+
+	// Indo para trás
+	hspeed = 2;
 	exit;
 }
 
