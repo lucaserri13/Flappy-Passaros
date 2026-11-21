@@ -6,3 +6,6 @@ global.perdeu = false;
 
 // Reiniciando o estado do jogo
 global.iniciou = false;
+
+// Reiniciando o level
+global.level = 1;

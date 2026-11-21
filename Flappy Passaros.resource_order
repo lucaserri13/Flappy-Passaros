@@ -4,6 +4,8 @@
   ],
   "ResourceOrderSettings":[
     {"name":"nt_aula_02","order":1,"path":"notes/nt_aula_02/nt_aula_02.yy",},
+    {"name":"nt_aula_03","order":2,"path":"notes/nt_aula_03/nt_aula_03.yy",},
+    {"name":"nt_aula_04","order":3,"path":"notes/nt_aula_04/nt_aula_04.yy",},
     {"name":"obj_arvore","order":1,"path":"objects/obj_arvore/obj_arvore.yy",},
     {"name":"obj_level","order":3,"path":"objects/obj_level/obj_level.yy",},
     {"name":"obj_passaro","order":2,"path":"objects/obj_passaro/obj_passaro.yy",},

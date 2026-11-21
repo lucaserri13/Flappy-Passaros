@@ -1,0 +1,111 @@
+
+--> 021 - Resolução do desafio
+
+Próximo desafio é fazer a geração procedural dos passaros
+
+//////////////////////////////////////////////////////////////////////////////////////////
+
+--> 022 - Resolução do desafio
+
+Próximo desafio é fazer um sistema de pontos
+
+//////////////////////////////////////////////////////////////////////////////////////////
+
+--> 023 - Iniciando o sistema de pontos
+
+A posição que o "Draw GUI" utiliza não é a posição da câmera, nem da room, 
+é a posição do VIEWPORT, a posição do VIEWPORT pode ser diferente da câmera
+
+Logo o GUI é desenhado na TELA do jogo, não é desenhado dentro do jogo
+
+A atividade é fazer o player não ganhar ponto após perder
+
+//////////////////////////////////////////////////////////////////////////////////////////
+
+--> 024 - Resolução da atividade
+
+Próxima coisa a fazer é arredondar os pontos e criar fonte
+
+//////////////////////////////////////////////////////////////////////////////////////////
+
+--> 025 - Criando a fonte e arredondando os pontos
+
+Enable SDF ajuda a renderizar as fontes de jeito que fica um pouquinho melhor.
+Essa configuração pode ser ativada dentro da fonte
+
+Fontes podem não ter "ç" ou acentos,
+para resolver isso basta clicar em "Add" (Add new range)
+
+Nele você poderá ver tudo o que a fonte tem, 
+separando em filtros tipo só digitos, só letras,
+e até mostrar tudo através do ASCII, incluindo símbolos
+
+Para incluir caracteres não presentes na fonte você clica em "Add Range"
+
+Qualquer função que seja "draw_set" é global,
+logo para resetar o "draw_set_font" você faz "draw_set_font(-1)"
+já que "-1" reseta essa função
+
+//////////////////////////////////////////////////////////////////////////////////////////
+
+--> 026 - Iniciando o sistema de leveis
+
+Para pegar a largura da janela você faz "window_get_width", 
+para pegar metade da janela você faz "window_get_width / 2".
+Isso é bem útil para draw GUI
+
+Desafio: Faça ele desenhar o sprite do level no número certo, no meio da tela
+
+//////////////////////////////////////////////////////////////////////////////////////////
+
+--> 027 - Resolução do desafio
+
+Image_Index/Sub Image são valores diferentes dos frames! 
+eles iniciam do 0 mas frames sempre iniciam no 1
+
+Em alpha, 1 é visível e 0 é transparente
+
+//////////////////////////////////////////////////////////////////////////////////////////
+
+--> 028 - Subindo de level
+
+Arrays serão introduzidas na próxima aula
+
+//////////////////////////////////////////////////////////////////////////////////////////
+
+--> 029 - Introdução a arrays
+
+Array é uma variável que pode ter vários valores
+
+Array é basicamente uma lista, é tipo uma tabela.
+
+Para criar uma array você abre e fecha colchetes "[ ]" 
+Exemplo: global.lista_pontos = [ ]
+
+Tudo que está dentro dos colchetes são itens dele
+
+A gente vai colocando vírgula para criar cada um dos itens.
+Exemplo: global.lista_pontos = [100, 250, 500, ...]
+
+Para ver um item em específico da lista você abre colchetes 
+após referenciar a variável e coloca o número dela
+
+(IMPORTANTE: ARRAYS NÃO COMEÇAM DO 1, 2, 3... ELAS COMEÇAM DO 0, 1, 2, 3...)
+
+Logo, para ver o primeiro índice você coloca 0
+
+Garanta que você está ficando dentro do limite dela,
+pedir por um número maior do que a quantidade de números
+disponíveis na array causa um crash
+
+Logo se uma array só tem 6 itens, pedir pelo "item 7" causa problemas
+
+//////////////////////////////////////////////////////////////////////////////////////////
+
+--> 030 - Usando arrays
+
+Desafio: fazer o nível subir de acordo com o array
+
+//////////////////////////////////////////////////////////////////////////////////////////
+
+FIM DAS AULAS, AS PRÓXIMAS AULAS ESTARÃO NO DOCUMENTO "nt_aula_04"
