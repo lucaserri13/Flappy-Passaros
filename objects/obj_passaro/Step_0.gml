@@ -3,6 +3,7 @@ if (passarocolide)
 {
 	// Girando
 	image_angle -= 15;
+	image_speed = 0;
 	exit;
 }
 
